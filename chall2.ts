@@ -111,8 +111,14 @@ interface Lister {
     isPremium: boolean;
 }
 
-let listener: Lister {
-    name: 'Maya';
-    age: 22;
-    isPremium: true;
+let listener: Lister = {
+    name: 'Maya',
+    age: 22,
+    isPremium: true,
 };
+const firstSong = (song: string) => song[0];
+const firstSongg = (song: string) => song[2];
+
+
+console.log(firstSong(songs))
+console.log(firstSongg(songs))

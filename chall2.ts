@@ -104,6 +104,7 @@
 //     - the third song in the array
 //     - the listener's `name`
 //     - the listener's `isPremium` value
+
 let songs: string[] = ['Intro', 'Echo', 'Sunrise'];
 interface Lister {
     name: string;
@@ -119,8 +120,10 @@ let listener: Lister = {
 const firstSong = (song: string) => song[0];
 const firstSongg = (song: string) => song[2];
 const listenerName = listener.name;
+const listenerBoolean = listener.isPremium;
 
 
 console.log(firstSong(songs))
 console.log(firstSongg(songs))
 console.log(listenerName)
+console.log(listenerBoolean)

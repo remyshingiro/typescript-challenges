@@ -18,8 +18,9 @@ let product2: Product = {
 
 const getProductInfo = (para: Product) => {
 
+    let total = para.price * para.quantity;
 
 
-
-    return `"Product: [name], Total Cost: $[total]"`;
+    return `Product: ${para.name}, Total Cost: ${total}`;
 }
+console.log(getProductInfo(product2))

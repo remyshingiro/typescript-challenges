@@ -118,7 +118,9 @@ let listener: Lister = {
 };
 const firstSong = (song: string) => song[0];
 const firstSongg = (song: string) => song[2];
+const listenerName = listener.name;
 
 
 console.log(firstSong(songs))
 console.log(firstSongg(songs))
+console.log(listenerName)

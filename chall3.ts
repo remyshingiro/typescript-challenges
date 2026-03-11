@@ -15,3 +15,11 @@ let product2: Product = {
     price: 2000,
     quantity: 5,
 }
+
+const getProductInfo = (para: Product) => {
+
+
+
+
+    return `"Product: [name], Total Cost: $[total]"`;
+}

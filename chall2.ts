@@ -84,27 +84,6 @@
 
 
 
-// ## Task Instructions
-
-// 1. Create a `songs` array with the explicit type `string[]`.
-// 2. Put these three song names into the array in this order:
-//     - `Intro`
-//     - `Echo`
-//     - `Sunrise`
-// 3. Create a `listener` object with this type:
-//     - `name` is a `string`
-//     - `age` is a `number`
-//     - `isPremium` is a `boolean`
-// 4. Give the object these values:
-//     - `name`: `Maya`
-//     - `age`: `22`
-//     - `isPremium`: `true`
-// 5. Print the following in this exact order:
-//     - the first song in the array
-//     - the third song in the array
-//     - the listener's `name`
-//     - the listener's `isPremium` value
-
 let songs: string[] = ['Intro', 'Echo', 'Sunrise'];
 interface Lister {
     name: string;

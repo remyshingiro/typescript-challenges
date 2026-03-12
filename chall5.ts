@@ -8,11 +8,11 @@ const formatNotification = (notification: Notification): string => {
     else if ('title' in notification) return `${notification.title}: ${notification.body}`;
 }
 
-// console.log(formatNotification("Hello, world!"));
+console.log(formatNotification("Hello, world!"));
 
-// console.log(
-//   formatNotification({
-//     title: "URGENT",
-//     body: "Server is down"
-//   })
-// );
+console.log(
+  formatNotification({
+    title: "URGENT",
+    body: "Server is down"
+  })
+);

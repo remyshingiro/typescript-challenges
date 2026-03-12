@@ -10,3 +10,11 @@ const swapEnds = <T>(arr: T[]): T[] => {
     res[lastIndex] = temp;
     return res;
 }
+
+const numberArray = [1, 2, 3, 4];
+const stringArray = ["apple", "banana", "cherry", "date", "elderberry"];
+const objectArray = [{ name: "Alice" }, { name: "Bob" }, { name: "Charlie" }];
+
+console.log(swapEnds(numberArray));
+console.log(swapEnds(stringArray));
+console.log(swapEnds(objectArray));

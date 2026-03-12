@@ -48,3 +48,6 @@ const calculateTotalRevenue = (orders: Order[]): number => {
     return total;
 
 }
+
+let bigArray = calculateTotalRevenue([order1, order2]);
+console.log(`Total Revenue:$ ${bigArray}`)

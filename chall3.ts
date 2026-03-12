@@ -23,4 +23,4 @@ const getProductInfo = (para: Product) => {
 
     return `Product: ${para.name}, Total Cost: ${total}`;
 }
-console.log(getProductInfo(product2))
+console.log(getProductInfo(product1))

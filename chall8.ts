@@ -19,3 +19,6 @@ interface DocumentationTask {
     format: string;
     pages: number;
 }
+
+type Task = CodingTask | TeskingTask | DocumentationTask;
+

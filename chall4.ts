@@ -35,3 +35,16 @@ const order2: Order = {
         { name: "Notebook", price: 7.25, quantity: 3 }
     ]
 };
+
+const calculateTotalRevenue = (orders: Order[]): number => {
+    let total = 0;
+
+    orders.forEach(order => {
+        order.items.forEach(item => {
+            total += item.price * item.quantity;
+        })
+    })
+
+    return total;
+
+}
